@@ -1,6 +1,8 @@
 import React from "react";
 import  ReactDOM  from "react-dom";
 
+
+
 const JSX = (
     <div>
         <h2>Welcome to React</h2> <br />
@@ -8,6 +10,8 @@ const JSX = (
         <hr />
     </div>
 );
+
+
 ReactDOM.render(JSX, document.getElementById('root'));
 
 
