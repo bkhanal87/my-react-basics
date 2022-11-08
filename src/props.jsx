@@ -6,14 +6,6 @@ Then access this prop in the CurrentDate component, showing its value within the
 import React from 'react';
 
 
-const CurrentDate = (props) => {
-    return (
-        <div>
-            <p>The current date is: ${props.date}</p>
-        </div>
-    );
-};
-
 class Calendar extends React.Component{
     constructor(props){
         super(props)
@@ -27,3 +19,14 @@ class Calendar extends React.Component{
         )
     };
 };
+
+const CurrentDate = (props) => {
+    return (
+        <div>
+            <p>The current date is: ${props.date}</p>
+        </div>
+    );
+};
+
+
+export default Calendar;
